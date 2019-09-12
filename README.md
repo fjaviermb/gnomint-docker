@@ -4,7 +4,7 @@ Run [GnoMint](https://sourceforge.net/projects/gnomint/) in a browser within ubu
 
 ## Usage
 
-All data within `./homedir` will be shared within the container.
+All data within `./homedir` will be shared in `/root` within the container.
 
 1. Clone this directory to your computer
 2. Start with `docker-compose up`. 
