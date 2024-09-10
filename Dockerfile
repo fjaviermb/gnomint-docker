@@ -1,6 +1,6 @@
-FROM dorowu/ubuntu-desktop-lxde-vnc:bionic
+FROM dorowu/ubuntu-desktop-lxde-vnc:focal-arm64
 
-RUN apt update \
+RUN apt update \ 
     && apt install -y gnomint \
     && apt autoclean -y \
     && apt autoremove -y \

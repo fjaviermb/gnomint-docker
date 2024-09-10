@@ -1,10 +1,7 @@
-version: '3'
 # Connect to http://127.0.0.1:6080/#/ after startup
-
 services:
-
   ubuntu-gnomint:
-    image: gnomint-docker
+    build: . 
     volumes: 
       - ./homedir/:/root
     ports:
