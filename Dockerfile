@@ -1,5 +1,6 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc:focal
 
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add
 RUN apt update \ 
     && apt install -y gnomint \
     && apt autoclean -y \
