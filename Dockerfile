@@ -1,4 +1,4 @@
-FROM dorowu/ubuntu-desktop-lxde-vnc:focal-arm64
+FROM dorowu/ubuntu-desktop-lxde-vnc:focal
 
 RUN apt update \ 
     && apt install -y gnomint \
